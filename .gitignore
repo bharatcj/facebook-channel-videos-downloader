@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Selenium temp profiles (created at runtime)
+selenium-profile*/
+ChromeProfile*/
+chromedriver*
+chromedriver.exe
+
+# Downloads and logs
+fb_*_videos/
+failed_*.txt
+
+# Build / cache
+*.egg-info/
+.dist/
+build/
